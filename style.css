@@ -1,0 +1,126 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  width: 900px;
+  margin-left: 10px;
+  /* background-color: #E0E0DC; */
+  background-color: #f7f7ed;
+}
+
+#selector{
+  margin-bottom: 10px;
+}
+
+.labels text {
+  text-anchor: end;
+}
+
+.tickMarksX {
+  fill: black;
+}
+
+path {
+  fill: none;
+  stroke: black;
+}
+
+.domain {
+  stroke: none;
+}
+
+#axis line {
+	stroke: none;
+}
+
+.tickMarksX line {
+  stroke: none;
+  stroke-dasharray: 3 5;
+}
+
+.tickMarksY line {
+  stroke: none;
+  stroke-dasharray: 3 5;
+}
+
+text {
+  font-size: 0.8rem;
+  fill: black;
+}
+
+
+.realTicks{
+  stroke: gray;
+  stroke-dasharray: 3 5;
+}
+
+
+p {
+  margin: 2px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  max-width: 820px;
+  padding-bottom: 5px;
+}
+
+h1{
+  margin: 2px;
+  font-size: 30px;
+}
+
+h2 {
+  margin: 2px;
+}
+
+h3 {
+  margin: 2px;
+}
+
+#chart{
+  background-color: white;
+  border: 0.5px solid;
+  border-color: lightgray;
+  border-radius: 10px;
+}
+
+#chart circle {
+  fill: #e2d59c;
+  padding: 2px;
+  stroke: white;
+  stroke-width: 1px;
+}
+
+#chart circle:hover {
+  fill: #DBCC85;
+  }
+
+.link{
+  color: black;
+  font-style: italic;
+  margin-bottom: 3px;
+  line-height: 2rem;
+}
+
+.link:hover{
+  background-color: #f7f7ed;
+  border-radius: 10px;
+  opacity: 0.5;
+  transition-duration: 0.8s;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #f7f7ed;
+    border: 0.5px solid;
+    border-color: lightgray;
+    border-radius: 10px;
+}
+
+.tooltip2 {
+    position: absolute;
+    width: 300px;
+    border: 0.5px solid;
+    border-color: lightgray;
+    border-radius: 10px;
+    background-color: white;
+}

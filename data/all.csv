@@ -1,0 +1,171 @@
+﻿indexName,Year,Director,Total
+dirOne,1718,John Talman,4
+dirOne,1720,John Talman,2
+dirOne,1721,John Talman,2
+dirOne,1723,John Talman,4
+dirOne,1724,John Talman,4
+dirOne,1725,John Talman,3
+dirOne,1726,William Bogdani,6
+dirOne,1727,William Bogdani,1
+dirOne,1729,William Bogdani,6
+dirOne,1730,William Bogdani,1
+dirOne,1731,William Bogdani,3
+dirOne,1732,William Bogdani,2
+dirOne,1733,William Bogdani,3
+dirOne,1734,William Bogdani,2
+dirOne,1735,William Bogdani,1
+dirOne,1736,William Bogdani,1
+dirOne,1737,William Bogdani,3
+dirOne,1738,William Bogdani,6
+dirOne,1739,William Bogdani,2
+dirOne,1740,Charles Frederick,1
+dirOne,1741,Charles Frederick,5
+dirOne,1742,Thomas Birch,1
+dirOne,1743,Thomas Birch,2
+dirOne,1744,Thomas Birch,3
+dirOne,1746,Thomas Birch,1
+dirOne,1747,John Ward,1
+engOne,1718,George Vertue,4
+engOne,1720,George Vertue,1
+engOne,1720,Gerard  Vandergucht,1
+engOne,1721,George Vertue,2
+engOne,1723,George Vertue,4
+engOne,1724,George Vertue,4
+engOne,1725,George Vertue,3
+engOne,1726,George Vertue,6
+engOne,1727,George Vertue,1
+engOne,1729,George Vertue,6
+engOne,1730,George Vertue,1
+engOne,1731,George Vertue,3
+engOne,1732,George Vertue,2
+engOne,1733,George Vertue,3
+engOne,1734,George Vertue,2
+engOne,1735,George Vertue,1
+engOne,1736,George Vertue,1
+engOne,1737,George Vertue,3
+engOne,1738,George Vertue,6
+engOne,1739,George Vertue,2
+engOne,1740,George Vertue,1
+engOne,1741,George Vertue,5
+engOne,1742,George Vertue,1
+engOne,1743,George Vertue,2
+engOne,1744,George Vertue,3
+engOne,1746,George Vertue,1
+engOne,1747,George Vertue,1
+delOne,1718,John Talman,1
+delOne,1718,B. M.,1
+delOne,1718,Charles Woodfield,1
+delOne,1718,Giuseppe Grisoni,1
+delOne,1720,George Vertue,1
+delOne,1720,J. Badslade,1
+delOne,1721,William Stukeley,2
+delOne,1723,Samuel Buck and Nathaniel Buck,4
+delOne,1724,John Kirkpatrick and Edmund Predeaux,2
+delOne,1724,Edmund Prideaux,1
+delOne,1724,John Talman,1
+delOne,1725,George Vertue,3
+delOne,1726,George Vertue,6
+delOne,1727,anonymous,1
+delOne,1729,John Bradshaw,6
+delOne,1730,A. Gordon,1
+delOne,1731,George Vertue,1
+delOne,1731,John Sharp,2
+delOne,1732,"Isaac Whood, Boul and I.N.",2
+delOne,1733,unknown,2
+delOne,1733,George Vertue,1
+delOne,1734,unknown,2
+delOne,1735,unknown,1
+delOne,1736,unknown,1
+delOne,1737,unknown,1
+delOne,1737,Francis Drake,1
+delOne,1737,William Bogdani,1
+delOne,1738,William Stukeley,1
+delOne,1738,James Vertue and James West,3
+delOne,1738,George Vertue,2
+delOne,1739,George Vertue,2
+delOne,1740,George Vertue,1
+delOne,1741,George Vertue,4
+delOne,1741,Augustin MÃ©nageot,1
+delOne,1742,George Vertue,1
+delOne,1743,Augustin MÃ©nageot,1
+delOne,1743,George Vertue and Pietro Santi Bartoli,1
+delOne,1744,George Vertue and Cornelius Johnson,3
+delOne,1746,unknown,1
+delOne,1747,anonymous,1
+dirTwo,1747,John Ward,2
+dirTwo,1750,John Ward,2
+dirTwo,1751,John Ward,1
+dirTwo,1752,John Ward,4
+dirTwo,1753,John Ward,3
+dirTwo,1754,John Ward,1
+dirTwo,1755,John Ward,2
+dirTwo,1756,John Ward,1
+dirTwo,1757,John Ward,1
+dirTwo,1758,John Ward,1
+dirTwo,1763,John Taylor,1
+dirTwo,1765,John Taylor,4
+dirTwo,1767,Greogry Sharpe,1
+dirTwo,1768,Greogry Sharpe,1
+dirTwo,1769,Greogry Sharpe,1
+dirTwo,1770,Greogry Sharpe,1
+dirTwo,1780,Richard Gough,7
+dirTwo,1784,Richard Gough,2
+dirTwo,1786,Richard Gough,5
+dirTwo,1788,Richard Gough,2
+dirTwo,1789,Richard Gough,11
+dirTwo,n/a,John Ward,1
+engTwo,1747,George Vertue,2
+engTwo,1750,George Vertue,2
+engTwo,1751,George Vertue,1
+engTwo,1752,n/a,1
+engTwo,1752,George Vertue,3
+engTwo,1753,George Vertue,3
+engTwo,1754,George Vertue,1
+engTwo,1755,George Vertue,2
+engTwo,1756,George Vertue,1
+engTwo,1757,Arthur Pond,1
+engTwo,1758,n/a,1
+engTwo,1763,James Basire the elder,1
+engTwo,1765,James Basire the elder,4
+engTwo,1767,/a,1
+engTwo,1768,James Basire the elder,1
+engTwo,1769,John Pye,1
+engTwo,1770,James Watson,1
+engTwo,1780,James Basire the elder,7
+engTwo,1784,James Basire the elder,2
+engTwo,1786,James Basire the elder,5
+engTwo,1788,James Basire the elder,2
+engTwo,1789,James Basire the elder,11
+engTwo,n/a,n/a,1
+delTwo,1747,John Evelyn,2
+delTwo,1750,Richard van Bleeck,1
+delTwo,1750,George Vertue,1
+delTwo,1751,Thomas Ricketts,1
+delTwo,1752,George Vertue,1
+delTwo,1752,n/a,1
+delTwo,1752,Smart Lethieullier and John Lydgate,1
+delTwo,1752,Charles Mitley,1
+delTwo,1753,unknown,2
+delTwo,1753,George Vertue,1
+delTwo,1754,George Vertue,1
+delTwo,1755,unknown,2
+delTwo,1756,George Vertue,1
+delTwo,1757,Arthur Pond and Richard Cosway,1
+delTwo,1758,n/a,1
+delTwo,1763,James Basire the elder,1
+delTwo,1765,James Basire the elder,2
+delTwo,1765,Wenceslaus Hollar and unknown,2
+delTwo,1767,n/a,1
+delTwo,1768,n/a,1
+delTwo,1769,unknown,1
+delTwo,1770,Francis Cotes,1
+delTwo,1780,James Basire the elder,7
+delTwo,1784,John Carter,2
+delTwo,1786,n/a,1
+delTwo,1786,John Carter,2
+delTwo,1786,George Vertue,2
+delTwo,1788,Catherine Downes,1
+delTwo,1788,Samuel Lysons,1
+delTwo,1789,Jacob Schnebbelie,9
+delTwo,1789,Adam de Cardonelle,2
+delTwo,n/a,n/a,1
