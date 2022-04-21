@@ -203,7 +203,7 @@ let href_all = [{
     Year: 1747,
     Name: "John Ward",
     Short_Name: "Ward",
-    Href: "<a href='https://scalar.missouri.edu/vm/vol1plate70-court-of-wards-and-liveries' target='_blank'>Plate 1.70 | Fenn Index: 5</a><br>,",
+    Href: "<a href='https://scalar.missouri.edu/vm/vol1plate70-court-of-wards-and-liveries' target='_blank'>Plate 1.70 | Fenn Index: 5</a><br>",
     Plate_Count: 1
   },
   {
@@ -595,7 +595,7 @@ let href_all = [{
     Year: 1747,
     Name: "George Vertue",
     Short_Name: "Vertue",
-    Href: "<a href='https://scalar.missouri.edu/vm/vol1plate70-court-of-wards-and-liveries' target='_blank'>Plate 1.70 | Fenn Index: 5</a><br>,",
+    Href: "<a href='https://scalar.missouri.edu/vm/vol1plate70-court-of-wards-and-liveries' target='_blank'>Plate 1.70 | Fenn Index: 5</a><br>",
     Plate_Count: 1
   },
   {
