@@ -5,7 +5,12 @@ body {
   width: 900px;
   margin-left: 10px;
   /* background-color: #E0E0DC; */
-  background-color: #f7f7ed;
+  /* background-color: #f7f7ed; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #selector{
@@ -78,9 +83,9 @@ h3 {
 
 #chart{
   background-color: white;
-  border: 0.5px solid;
+  /* border: 0.5px solid;
   border-color: lightgray;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 #chart circle {
@@ -117,12 +122,18 @@ h3 {
 }
 
 .tooltip2 {
-    position: absolute;
-    width: 300px;
+    width: 200px;
     border: 0.5px solid;
     border-color: lightgray;
     border-radius: 10px;
     background-color: white;
-    left: 925px;
-    top: 133px;
+    /* left: 925px;
+    top: 133px; */
+}
+
+#allChart {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
 }

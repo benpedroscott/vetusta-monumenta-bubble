@@ -1363,9 +1363,9 @@ let href_all = [{
 
 let margin = {
   top: 55,
-  left: 175,
+  left: 150,
   bottom: 75,
-  right: 160,
+  right: 80,
 };
 
 let height = 600 - margin.top - margin.bottom;
@@ -1440,7 +1440,7 @@ function runChart(selectName) {
   let mousemove = function(d) {
     tooltip
       .html(`<strong>${d.Year}</strong> <br> Plate count: ${d.Plate_Count}`)
-      .style("left", (d3.mouse(this)[0] + 120) + "px")
+      .style("left", (d3.mouse(this)[0] + 230) + "px")
       .style("top", (d3.mouse(this)[1] + 120) + "px")
       .attr("data-html", "true");
   }
@@ -1516,26 +1516,26 @@ function runChart(selectName) {
   let simulation = d3.forceSimulation(data)
 
     .force("xForce", d3.forceX((d) => {
-        return x(d.Year);
-      }).strength(1))
+      return x(d.Year);
+    }).strength(1))
 
     .force("yForce", d3.forceY((d) => {
-        return y(d.Short_Name);
-      }).strength(0.9))
+      return y(d.Short_Name);
+    }).strength(0.9))
 
     .force("collide", d3.forceCollide((d) => {
-        return (d.Plate_Count + 1) * 4.5;
-        }))
+      return (d.Plate_Count + 1) * 4.5;
+    }))
 
     .alphaDecay(0)
     .alpha(0.3)
     .on("tick", tick);
 
-    function tick() {
+  function tick() {
     d3.selectAll("circle")
-        .attr("cx", (d) => d.x)
-        .attr("cy", (d) => d.y);
-    }
+      .attr("cx", (d) => d.x)
+      .attr("cy", (d) => d.y);
+  }
 
 
   function updateChart(chooseName) {
@@ -1553,11 +1553,11 @@ function runChart(selectName) {
       .transition()
       .duration(1000)
       .call(d3.axisBottom(x)
-      .ticks()
-      .tickFormat(d3.format("d"))
-      .tickSize(-height))
-    .attr('class', "tickMarksX")
-    .attr("transform", `translate(0,${height + 10})`)
+        .ticks()
+        .tickFormat(d3.format("d"))
+        .tickSize(-height))
+      .attr('class', "tickMarksX")
+      .attr("transform", `translate(0,${height + 10})`)
 
 
     y
@@ -1615,29 +1615,29 @@ function runChart(selectName) {
       .on("click", mouseclick)
       .raise()
 
-      let simulation = d3.forceSimulation(dataFilter)
+    let simulation = d3.forceSimulation(dataFilter)
 
-        .force("xForce", d3.forceX((d) => {
-            return x(d.Year);
-          }).strength(1))
+      .force("xForce", d3.forceX((d) => {
+        return x(d.Year);
+      }).strength(1))
 
-        .force("yForce", d3.forceY((d) => {
-            return y(d.Short_Name);
-          }).strength(0.8))
+      .force("yForce", d3.forceY((d) => {
+        return y(d.Short_Name);
+      }).strength(0.8))
 
-        .force("collide", d3.forceCollide((d) => {
-            return (d.Plate_Count + 1) * 4.5;
-            }))
+      .force("collide", d3.forceCollide((d) => {
+        return (d.Plate_Count + 1) * 4.5;
+      }))
 
-        .alphaDecay(0)
-        .alpha(0.2)
-        .on("tick", tick);
+      .alphaDecay(0)
+      .alpha(0.2)
+      .on("tick", tick);
 
-        function tick() {
-        d3.selectAll("circle")
-            .attr("cx", (d) => d.x)
-            .attr("cy", (d) => d.y);
-        }
+    function tick() {
+      d3.selectAll("circle")
+        .attr("cx", (d) => d.x)
+        .attr("cy", (d) => d.y);
+    }
 
 
   }
