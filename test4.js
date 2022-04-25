@@ -1638,8 +1638,6 @@ function runChart(selectName) {
         .attr("cx", (d) => d.x)
         .attr("cy", (d) => d.y);
     }
-
-
   }
 }
 
