@@ -1642,3 +1642,18 @@ function runChart(selectName) {
 
   }
 }
+
+function toggleOne() {
+
+  if (document.getElementById("iframeHolder1").style.display == "flex") {
+    let iframe = document.getElementById("iframeHolder1");
+    iframe.style.display = "none";
+    document.getElementById("button1").innerHTML = "Collapse the graphic";
+    console.log("clicked first")
+  } else {
+    let iframe = document.getElementById("iframeHolder1");
+    iframe.style.display = "flex";
+    document.getElementById("button1").innerHTML = "View the Volume 1 directors graphic";
+    console.log("clicked");
+  }
+}
