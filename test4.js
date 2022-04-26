@@ -730,7 +730,7 @@ let href_all = [{
     Index_Name: "engTwo",
     Year: 1770,
     Name: "James Watson",
-    Short_Name: "Warson",
+    Short_Name: "Watson",
     Href: "<a href='https://scalar.missouri.edu/vm/vol2plate28-charles-lyttelton-portrait' target='_blank'>Plate 2.28 | Fenn Index: 5.1</a><br>",
     Plate_Count: 1
   },
