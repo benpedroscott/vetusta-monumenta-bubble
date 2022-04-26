@@ -1440,7 +1440,7 @@ function runChart(selectName) {
   let mousemove = function(d) {
     tooltip
       .html(`<strong>${d.Year}</strong> <br> Plate count: ${d.Plate_Count}`)
-      .style("left", (d3.mouse(this)[0] + 300) + "px")
+      .style("left", (d3.mouse(this)[0] + 150) + "px")
       .style("top", (d3.mouse(this)[1] + 120) + "px")
       .attr("data-html", "true");
   }
