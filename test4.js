@@ -1642,20 +1642,42 @@ function runChart(selectName) {
 }
 
 
-var acc = document.getElementsByClassName("accordion")
-var i;
+// function accordionToggle(){
+//   let iframe = document.getElementById("iframe1");
+//
+//   if(iframe.style.display == "flex") {
+//     iframe.style.display = "none";
+//   } else if (iframe.style.display == "none") {
+//     iframe.style.display = "flex";
+//   }
+// }
+//
+//
+// function accordionToggle2(){
+//   let iframe = document.getElementById("iframe2");
+//
+//   if(iframe.style.display == "flex") {
+//     iframe.style.display = "none";
+//   } else if (iframe.style.display == "none") {
+//     iframe.style.display = "flex";
+//   }
+// }
 
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-      console.log("work");
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-      console.log("work1");
-    }
-  });
-}
+//
+// var acc = document.getElementsByClassName("accordion")
+// var i;
+//
+//
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var panel = this.nextElementSibling;
+//     if (panel.style.maxHeight) {
+//       panel.style.maxHeight = null;
+//       console.log("work");
+//     } else {
+//       panel.style.maxHeight = panel.scrollHeight + "px";
+//       console.log("work1");
+//     }
+//   });
+// }
