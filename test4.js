@@ -1440,7 +1440,7 @@ function runChart(selectName) {
   let mousemove = function(d) {
     tooltip
       .html(`<strong>${d.Year}</strong> <br> Plate count: ${d.Plate_Count}`)
-      .style("left", (d3.mouse(this)[0] + 230) + "px")
+      .style("left", (d3.mouse(this)[0] + 300) + "px")
       .style("top", (d3.mouse(this)[1] + 120) + "px")
       .attr("data-html", "true");
   }
@@ -1675,15 +1675,17 @@ function toggleTwo() {
 var acc = document.getElementsByClassName("accordion")
 var i;
 
+
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
-    if (panel.style.display === "flex") {
-      panel.style.display = "none";
-
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+      console.log("work");
     } else {
-      panel.style.display = "flex";
+      panel.style.maxHeight = panel.scrollHeight + "px";
+      console.log("work1");
     }
   });
 }

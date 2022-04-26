@@ -150,8 +150,11 @@ iframe {
 .iframeHolder {
   width: 1100px;
   height: 750px;
-    display: none;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  overflow: hidden;
 }
+
 
 button {
   display: flex;
@@ -170,9 +173,3 @@ button:hover{
   background-color: rgb(232, 232, 232);
   cursor: pointer;
 }
-
-/* #button1::after{
-  content: "+";
-  float: right;
-  margin-left: 5px;
-} */
