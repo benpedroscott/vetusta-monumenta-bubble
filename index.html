@@ -1,47 +1,54 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Simple Page</title>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <h1 class = "headline">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Simple Page</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="headline">
     The directors, engravers and delineators of Vetusta Monumenta
-    </h1>
-    <p>
-      Hover over each bubble to see a small tooltip with a bit more detailed information. Click on each bubble for a more in-depth tooltip to appear on the side. Change the data by selecting an option through the dropdown shown below.
-    </p>
-  <div id = "selector">
+  </h1>
+  <p>
+    Hover over each bubble to see a small tooltip with a bit more detailed information. Click on each bubble for a more in-depth tooltip to appear on the side. Change the data by selecting an option through the dropdown shown below.
+  </p>
+  <div id="selector">
     <label for="dataset"><strong>Choose title and volume</strong></label>
-      <select id="dataset" name="dataset">
-        <option value="dirOne" selected="true">Directors Vol. 1</option>
-        <option value="dirTwo">Directors Vol. 2</option>
-        <option value="engOne">Engravers Vol. 1</option>
-        <option value="engTwo">Engravers Vol. 2</option>
-        <option value="delOne">Delineators Vol. 1</option>
-        <option value="delTwo">Delineators Vol. 2</option>
-      </select>
-    </div>
+    <select id="dataset" name="dataset">
+      <option value="dirOne" selected="true">Directors Vol. 1</option>
+      <option value="dirTwo">Directors Vol. 2</option>
+      <option value="engOne">Engravers Vol. 1</option>
+      <option value="engTwo">Engravers Vol. 2</option>
+      <option value="delOne">Delineators Vol. 1</option>
+      <option value="delTwo">Delineators Vol. 2</option>
+    </select>
+  </div>
 
-    <div id="allChart">
+  <div id="allChart">
 
-    <div id = "chart"></div>
+    <div id="chart"></div>
 
-    <div id = "sidebar"></div>
+    <div id="sidebar"></div>
 
-    </div>
-    <button id = "button1" type="button" onclick="toggleOne()">View the Volume 1 directors graphic</button>
-    </div>
-      <div class="iframeHolder">
-        <iframe id="iframeHolder1" src="https://benpedroscott.github.io/vetusta_html_1/" style="display: flex;"></iframe>
-      </div>
+  </div>
+  <button id="button1" class="accordion">Volume 1 directors graphic</button>
+  <div class="iframeHolder">
+    <iframe id="iframeHolder1" src="https://benpedroscott.github.io/vetusta_html_1/"></iframe>
+  </div>
+
+  <button id="button2" class="accordion">Volume 2 directors graphic</button>
+  <div class="iframeHolder">
+    <iframe id="iframeHolder2" src="https://benpedroscott.github.io/vetusta_html_1/"></iframe>
+  </div>
 
 
-    <script src = "test4.js" type="text/javascript"></script>
-  </body>
+  <script src="test4.js" type="text/javascript"></script>
+</body>
+
 </html>

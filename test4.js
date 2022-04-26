@@ -1646,12 +1646,44 @@ function toggleOne() {
   if (document.getElementById("iframeHolder1").style.display == "flex") {
     let iframe = document.getElementById("iframeHolder1");
     iframe.style.display = "none";
-    document.getElementById("button1").innerHTML = "Collapse the graphic";
+    document.getElementById("button1").innerHTML = "+ View the Volume 1 directors graphic";
     console.log("clicked first")
   } else {
     let iframe = document.getElementById("iframeHolder1");
     iframe.style.display = "flex";
-    document.getElementById("button1").innerHTML = "View the Volume 1 directors graphic";
+    document.getElementById("button1").innerHTML = "– View the Volume 1 directors graphic";
     console.log("clicked");
   }
+}
+
+function toggleTwo() {
+
+  if (document.getElementById("iframeHolder2").style.display == "flex") {
+    let iframe = document.getElementById("iframeHolder2");
+    iframe.style.display = "none";
+    document.getElementById("button2").innerHTML = "+ View the Volume 2 directors graphic";
+    console.log("clicked first")
+  } else {
+    let iframe = document.getElementById("iframeHolder2");
+    iframe.style.display = "flex";
+    document.getElementById("button2").innerHTML = "– View the Volume 2 directors graphic";
+    console.log("clicked");
+  }
+}
+
+
+var acc = document.getElementsByClassName("accordion")
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "flex") {
+      panel.style.display = "none";
+
+    } else {
+      panel.style.display = "flex";
+    }
+  });
 }
