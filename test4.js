@@ -1369,7 +1369,8 @@ let margin = {
 };
 
 let height = 600 - margin.top - margin.bottom;
-let width = 1000 - margin.left - margin.right;
+let width = 800 - margin.left - margin.right;
+
 
 let chartArea = d3.select('#chart')
   .append('svg')
@@ -1385,6 +1386,16 @@ window.onload = function firstRun() {
   let selectName = d3.select("#dataset").property('value');
   runChart(selectName);
 }
+
+var aspect = width / height,
+    chart = d3.select('chart');
+d3.select(window)
+  .on("resize", function() {
+    var targetWidth = chart.node().getBoundingClientRect().width;
+    chart.attr("width", targetWidth);
+    chart.attr("height", targetWidth / aspect);
+  });
+
 
 function runChart(selectName) {
   let data = href_all.filter(d => d.Index_Name == selectName);
@@ -1440,7 +1451,7 @@ function runChart(selectName) {
   let mousemove = function(d) {
     tooltip
       .html(`<strong>${d.Year}</strong> <br> Plate count: ${d.Plate_Count}`)
-      .style("left", (d3.mouse(this)[0] + 150) + "px")
+      .style("left", (d3.mouse(this)[0] + 250) + "px")
       .style("top", (d3.mouse(this)[1] + 120) + "px")
       .attr("data-html", "true");
   }
