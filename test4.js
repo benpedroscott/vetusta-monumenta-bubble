@@ -376,7 +376,7 @@ let href_all = [{
   },
   {
     Index_Name: "dirTwo",
-    Year: "n/a",
+    Year: "1750",
     Name: "John Ward",
     Short_Name: "Ward",
     Href: "<a href='https://scalar.missouri.edu/vm/vol2plate6-charles-i-warrant' target='_blank'>Plate 2.6 | Fenn Index: 2.4</a><br>",
@@ -1360,7 +1360,6 @@ let href_all = [{
   }
 ];
 
-
 let margin = {
   top: 55,
   left: 150,
@@ -1374,6 +1373,7 @@ let width = 800 - margin.left - margin.right;
 
 let chartArea = d3.select('#chart')
   .append('svg')
+  .attr("preserveAspectRatio", "xMidYMid meet")
   .attr("height", height + margin.top + margin.bottom)
   .attr("width", width + margin.left + margin.right)
   .attr('transform', `translate(0,0)`)
@@ -1548,6 +1548,7 @@ function runChart(selectName) {
       .attr("cy", (d) => d.y);
   }
 
+  pymChild.sendHeight();
 
   function updateChart(chooseName) {
     let dataFilter = href_all.filter(d => d.Index_Name == chooseName);
@@ -1649,8 +1650,13 @@ function runChart(selectName) {
         .attr("cx", (d) => d.x)
         .attr("cy", (d) => d.y);
     }
+
+    pymChild.sendHeight();
+
   }
 }
+
+var pymChild = new pym.Child();
 
 
 // function accordionToggle(){
