@@ -1360,6 +1360,8 @@ let href_all = [{
   }
 ];
 
+var pymChild = new pym.Child();
+
 let margin = {
   top: 55,
   left: 150,
@@ -1655,8 +1657,6 @@ function runChart(selectName) {
 
   }
 }
-
-var pymChild = new pym.Child();
 
 
 // function accordionToggle(){
